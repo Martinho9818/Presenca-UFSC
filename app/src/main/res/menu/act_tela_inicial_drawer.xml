@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_aulas"
+            android:icon="@drawable/baseline_check_circle_outline_black_24"
+            android:title="@string/presenca" />
+        <item
+            android:id="@+id/nav_disciplina"
+            android:icon="@drawable/baseline_school_black_24"
+            android:title="@string/disciplinas" />
+        <item
+            android:id="@+id/nav_aluno"
+            android:icon="@drawable/baseline_perm_identity_black_24"
+            android:title="@string/aluno" />
+
+    </group>
+
+    <item android:title="Configurações">
+        <menu>
+            <item
+                android:id="@+id/nav_recuperacao_conta"
+                android:icon="@drawable/baseline_settings_backup_restore_black_24"
+                android:title="@string/recupera_o_de_conta" />
+        </menu>
+    </item>
+
+</menu>
