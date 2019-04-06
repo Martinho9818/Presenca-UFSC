@@ -3,4 +3,4 @@ Aplicativo criado para trabalho de conclusão de curso da Universidade Federal d
 
 Tem como o objetivo utilizar o QRCode para marcar e controlar as presenças dos alunos.
 Foi criado um ambiente simulando uma instituição de ensino.
-Para total funcionamento, deve-se criar um servidor com banco de dados postgreSQL com os SQL do arquivo SQLs.sql e conexões TCP abilitadas para acessar de fora.
+Para total funcionamento, deve-se criar um servidor com banco de dados postgreSQL com os SQL do arquivo SQL_APP_Presenca_UFSC.sql e conexões TCP abilitadas para acessar de fora.
